@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">chemCalc</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="gallons">Gallons</string>
+    <string name="flow">Flow</string>
+    <string name="calculate">Calculate</string>
+    <string name="enterGallons">Gallons in your pool</string>
+    <string name="typeOfChlorine">Chose Chlorine</string>
+    <string name="chlorine">Chlorine Type</string>
+    <string name="reset">Reset</string>
+    <string name="title_activity_chlorine">Chlorine</string>
+    <string name="measurement">Chlorine Measurement</string>
+    <string name="adjustment">Chlorine adjustment</string>
+    <string name="EnterChlorineMeasurement">Enter Chlorine Measurement</string>
+    <string name="adjustmentDisplay">"Adjustment will be displayed "</string>
+    <string name="title_activity_main_menue">MainMenue</string>
+    <string name="chlorineButton">Chlorine</string>
+    <string name="breakPointButton">Break Point Chlorination</string>
+    <string name="freeChlorine">Free Chlorine</string>
+    <string name="totalChlorine">Total Chlorine</string>
+    <string name="title_activity_break_point_chlorination">BreakPointChlorination</string>
+    <string name="freeChlorineHint">Enter Free Chlorine Measurement</string>
+    <string name="totalChlorineHint">Enter Total Chlorine Measurement</string>
+    <string name="BPCLabel">Break Point Chorination</string>
+    <string name="BreakPoint">Break Point chlorination will be displayed </string>
+    <string name="title_activity_filter_media">FilterMedia</string>
+    <string name="title_activity_test_results">TestResults</string>
+    
+    
+    <string name="chlo">Chlorine</string>
+    <string name="ph">Ph</string>
+    <string name="Alkalinity">Alkalinity</string>
+    <string name="ch">Calcium Hardness </string>
+    <string name="cyanuricAcid">Cyanuric Acid</string>
+    <string name="cyanuriAacidHints">Stabilizer</string>
+     <string name="testResultButton">Submit</string>
+    
+    
+    
+    
+
+</resources>

@@ -1,0 +1,92 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chemcalc.BreakPoint"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/ChlorineTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/totalChlorine"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/totalChlorineED"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/freeChlorineHint" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/freeChlorine"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            android:id="@+id/freeChlorineED"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/totalChlorineHint" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.54" >
+
+            <TextView
+                android:id="@+id/combineChlorineLB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/BPCLabel"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/combinedChlorineED"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/combineChlorineLB"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/combineChlorineLB"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:hint="@string/BreakPoint" />
+
+            <Button
+                android:id="@+id/calculate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/combineChlorineLB"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="51dp"
+                android:layout_marginLeft="15dp"
+                android:text="@string/calculate" />
+
+            <Button
+                android:id="@+id/resetbp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/calculate"
+                android:layout_alignBottom="@+id/calculate"
+                android:layout_alignRight="@+id/combineChlorineLB"
+                android:text="@string/reset" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>
+

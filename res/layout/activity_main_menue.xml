@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chemcalc.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/flowButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/flow" />
+        
+        
+        
+        <Button
+            android:id="@+id/chlorinebutton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chlorineButton" />
+        
+         <Button
+             android:id="@+id/breakPointbutton1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/breakPointButton" />
+       
+    </LinearLayout>
+
+</FrameLayout>
+
